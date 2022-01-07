@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Keywords" content="HTML, Kodluyoruz">
-    <title>Sekme Uzerinde Gorunen Isim</title>
+    <title>Bigo's Tab</title>
 </head>
 <body>
     site content
@@ -160,6 +160,195 @@
     <li>female</li>
     <li>non binary</li>
 </ul>
+
+<h2>HTML EMMET</h2>
+
+<p> + just adds the items together if i write h1 + p it gives me one header1 and one paragraph </p> 
+<h1>h1</h1>
+<p>p</p>
+
+<br>
+
+<p>if i write h1+p+h2+p+p+p+p it just gives them to me </p>
+<h1>h1</h1>
+<p>p</p>
+<h2>h2</h2>
+<p>p</p>
+<p>p</p>
+<p>p</p>
+<p>p</p>
+
+<br>
+
+<p>h1+p*2+h2+p*4</p>
+<h1>h1</h1>
+<p>p</p>
+<p>p</p>
+<h2>h2</h2>
+<p>p</p>
+<p>p</p>
+<p>p</p>
+<p>p</p>
+
+<br>
+
+<p>li inside of ul can be written as ul>li</p>
+<ul>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+</ul>
+
+<ul>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+</ul>
+
+<br>
+
+<p>^ means go up a level. Examples below</p>
+
+<p>ul>li*3^p means <b>put 3 line items in the unordered list then go up one level, which is the level of unordered list and give me a p</b>
+<ul>
+    <li>li</li>
+    <li>li</li>
+    <li>li</li>
+</ul>
+<p>p</p>
+
+<br>
+
+<p>ul>li*3^p*2+h3 <b>give me 3 list items in an unordered list go up a level and give me 2 paragraphs and a header3</b></p>
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+<p>p1</p>
+<p>p2</p>
+<h3>h3 1</h3>
+
+<br>
+
+<p><b>p>lorem</b></p>
+
+<p>Lorem, ipsum dolor.</p>
+
+<br>
+
+<p>ul>li*3>lorem1^p*2>lorem3+h3>lorem1 <b>give me 3 line items in an unordered list. Inside the 3 line items give me 1 word lorems. Go up one level (the level of ul) and give me 2 paragraphs. Inside these 2 paragraphs give me 3 word lorems and 1 header3. Inside this header 3, give me 1 word lorem</b></p>
+<ul>
+    <li>Lorem.</li>
+    <li>Magnam.</li>
+    <li>Animi!</li>
+    <p>
+        Lorem, ipsum dolor.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+        Aliquam, deleniti quisquam.
+        <h3>Eaque.</h3>
+    </p>
+</ul>
+
+<br>
+
+<p>notes for this section only makes sense in the VSC</p>
+
+<p>.className gives me a div class named className. <b>the dot (.) means class</b> </p>
+<div class="className"></div>
+
+<p>h3.className gives me a header3 with the class className</p>
+<h3 class="className"></h3>
+
+<p>if i leave a space in between h3 and .className this also gives me a div with the class className while giving me h3 as a text at the start</p>
+
+h3 <div class="className"></div>
+
+<p>h3>className>lorem3 gives me 3 lorems inside a header 3 which has a class of className</p>
+<h3 class="className">Lorem, ipsum dolor.</h3>
+
+<p># means id. If i write #id, this gives me a div with the id name "id"</p>
+<div id="id"></div>
+
+<p>h3#createId>lorem2 gives me a header3 with the id "createId" with 2 lorems inside</p>
+<h3 id="createId">Lorem, ipsum.</h3>
+
+<p>conversely if i write #h3>lorem2 it gives me a div with the id of "h3" and inside the div a 2 word lorem. So after the hashtag sign we need to write the idName just like how we need to write the className after the dot(.)</p>
+<div id="h3">Lorem, ipsum.</div>
+
+<p>h3.className#createId>lorem1 will give me a header 3 with the class of className and with the ID of createId. Inside this header3 there will be 1 word lorem </p>
+<h3 class="className" id="createId">Lorem.</h3>
+
+<p>h3.first-class.second-class . program will read the first dot and read the rest as the class name so the second dot will be seen as a space character. Also there shouldn't be a space character in a class name it doesnt recognize with a space </p>
+<h3 class="first-class second-class"></h3>
+
+<p>h3.kodluyoruz.html</p>
+<h3 class="kodluyoruz html"></h3>
+
+<p>we can try different combinations to see different results</p>
+<p>for example, ul>li.result since we wonder about the result</p>
+<p>it will give us a list item inside of a unordered list and the list items' class will be "result"</p>
+
+<ul>
+    <li class="result"></li>
+</ul>    
+
+<p>lets try <b>ul>.result</b> now even we didnt write li to give us a list item. this time the program will recognize the ul and give us the li itself. so <b>ul>.result</b> will give is a list item inside of a unordered list with the class of "result"</p>
+<ul>
+    <li class="result"></li>
+</ul>
+
+<p><b>ul>.text-red*3</b> will give us an unordered list. Inside it will be 3 list items with the class name text-red</p>
+<ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+</ul>
+
+<br> 
+
+<p><b>this one is MUCHO IMPORTANTE GRINGO</b></p>
+<p><b>$</b> the DOLLA SIGN BOYY</p>
+<p>the dollar sign $ incrementally increases the number</p>
+<p>if i write <b>ul>li#idNo$*3</b> this will give me an unordered list. Inside there will be 3 list items with the id "idNo$" but with the dollar sign $ means the number at the end is gonna increase from 1 to 3</p>
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>   
+
+<br>
+
+<p>if i write p{ and then keep writing when i hit TAB it will complete my text to a p tag. This is also true for all the tags. So if i start writing h1{ ....... it will also close to a h1 tag when i hit tab</p>
+<p>writing inside the p tag with emmet</p>
+<h3>writing inside the h3 tag with emmet</h3>
+<b>writing inside the b tag with emmet</b>
+
+<p><b>li.className</b> will give me a line item with the class of className</p>
+<li class="className"></li>
+
+<p><b>.className</b> will give me a div with the class of className</p>
+<div class="className"></div>
+
+<p><b>ul>.className</b> will give me an unordered list. Inside there will be a list item with the class of className</p>
+<ul>
+    <li class="className"></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
