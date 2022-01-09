@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="HTML, Kodluyoruz">
+    <title>Bigo's Tab</title>
+    <style>
+        .images {}
+    </style>
+
+</head>
+
+<body>
+    site content
+    <h1>header1</h1>
+    <h2>header2</h2>
+    <h3>header3</h3>
+    <h4>header4</h4>
+    <h5>header5</h5>
+    <h6>header6</h6>
+
+    <a id="head" href="#footer">this is where you arrived, now click me to go back</a>
+
+    <p>inside the p tag we can write the paragraph content</p>
+    <p>
+        if we want we can use br tag <br>
+        to line break in a paragraph
+    </p>
+
+    <p>we can use the a tag to embed links</p>
+    <a href="https://www.kodluyoruz.org/">Kodluyoruz Website</a>
+
+    <p>ul tag means unordered list and it is used to create bullet point style lists. Inside the ul tag we also must use
+        li tag to write the list points</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <p>ol tag stands for ordered list and it is used for numerically ordered lists. Like ul, we also need to use li tags
+        inside the ol tags</p>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <p> <strong>strong</strong> and <b>b</b> tags are used to bold out the text pieces we want</p>
+
+    <br>
+
+    <p>script tag is used for inserting JavaScript codes inside the HTML file </p>
+
+    <script>
+        document.write("Kodluyoruz")
+    </script>
+
+    <p>button tag is used for adding a button to our page</p>
+    <button>PUSH ME HUMAN</button>
+
+
+    <p>img tag lets us add an image to the page. If we add a saved image to our html file we can easily select the path
+        of the image</p>
+    <img width="250" height="250" src="images.jpg/609859a191abe5d64b17fed3_Patika logo.png" alt="patika.dev">
+
+    <br>
+
+    <p>iframe tag lets us use another document in our page. For example we can use a youtube video</p>
+    <iframe width="250" height="250" src="https://www.youtube.com/embed/hrbc1PuJhgQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <br>
+
+    <p>we can use CTRL K C or CTRL /for comment line shortcut</p>
+    <!-- comment line  -->
+
+    <br>
+
+    <h1>Front End Temelleri</h1>
+    <h2>HTML</h2>
+    <h3>Intro</h3>
+    <h4>Headers in HTML</h4>
+
+    <h2>CSS</h2>
+
+    <p style="color: red;">style tag: after most tags inside the <> when written "style", we can bring context and start
+            using CSS in order to "dress" the HTML content </p>
+
+    <!-- comment line -->
+    <p>you can use comment lines as a bookmark in your code so you dont get lost (use comment line start on CTRL F) </p>
+
+    <h2>HTML LISTS</h2>
+
+    <p>alt shift down arrow duplicates the line you are on</p>
+    <ol>
+        <li>ordered item 1</li>
+        <li>ordered item 2</li>
+        <li>ordered item 3</li>
+    </ol>
+
+    <ul>
+        <li>unordered item 1</li>
+        <li>unordered item 2</li>
+        <li>unordered item 3</li>
+    </ul>
+
+    <p>List inside of another list</p>
+
+    <ol>
+        <li>video games</li>
+        <ul>
+            <li>MMORPG</li>
+            <ul>
+                <li>New World</li>
+                <li>World of Warcraft</li>
+                <ol>
+                    <li>DOTA</li>
+                    <ul>
+                        <li>TFT</li>
+                    </ul>
+                    <li>LOL</li>
+                </ol>
+            </ul>
+            <li>FPS</li>
+            <ul>
+                <li>Counter Strike</li>
+                <li>Valorant</li>
+            </ul>
+            <li>RTS</li>
+        </ul>
+    </ol>
+    <p> <b>NOTE:</b> without modifying ul list styles, html assigns ul inside of another as square </p>
+
+    <p>ol type and ul style list style <b>default shapes are ol: 1. and ul: circle</b></p>
+
+    <ol type="I">
+        <li>ordered item1</li>
+        <li>ordered item2</li>
+        <li>ordered item3</li>
+    </ol>
+
+    <ol type="i">
+        <li>ordered item1</li>
+        <li>ordered item2</li>
+        <li>ordered item3</li>
+    </ol>
+
+    <ol type="a">
+        <li>ordered item1</li>
+        <li>ordered item2</li>
+        <li>ordered item3</li>
+    </ol>
+
+    <ul style="list-style: symbols();">
+        <li>male</li>
+        <li>female</li>
+        <li>non binary</li>
+    </ul>
+
+    <ul style="list-style: square;">
+        <li>male</li>
+        <li>female</li>
+        <li>non binary</li>
+    </ul>
+
+    <p>in ul styles we can essentially turn them into ol by selecting list styles such as latin roman etc below is
+        armenian</p>
+
+    <ul style="list-style: armenian;">
+        <li>male</li>
+        <li>female</li>
+        <li>non binary</li>
+    </ul>
+
+    <h2>HTML EMMET</h2>
+
+    <p> + just adds the items together if i write h1 + p it gives me one header1 and one paragraph </p>
+    <h1>h1</h1>
+    <p>p</p>
+
+    <br>
+
+    <p>if i write h1+p+h2+p+p+p+p it just gives them to me </p>
+    <h1>h1</h1>
+    <p>p</p>
+    <h2>h2</h2>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+
+    <br>
+
+    <p>h1+p*2+h2+p*4</p>
+    <h1>h1</h1>
+    <p>p</p>
+    <p>p</p>
+    <h2>h2</h2>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+
+    <br>
+
+    <p>li inside of ul can be written as ul>li</p>
+    <ul>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ul>
+
+    <ul>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ul>
+
+    <br>
+
+    <p>^ means go up a level. Examples below</p>
+
+    <p>ul>li*3^p means <b>put 3 line items in the unordered list then go up one level, which is the level of unordered
+            list and give me a p</b>
+    <ul>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ul>
+    <p>p</p>
+
+    <br>
+
+    <p>ul>li*3^p*2+h3 <b>give me 3 list items in an unordered list go up a level and give me 2 paragraphs and a
+            header3</b></p>
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <p>p1</p>
+    <p>p2</p>
+    <h3>h3 1</h3>
+
+    <br>
+
+    <p><b>p>lorem</b></p>
+
+    <p>Lorem, ipsum dolor.</p>
+
+    <br>
+
+    <p>ul>li*3>lorem1^p*2>lorem3+h3>lorem1 <b>give me 3 line items in an unordered list. Inside the 3 line items give me
+            1 word lorems. Go up one level (the level of ul) and give me 2 paragraphs. Inside these 2 paragraphs give me
+            3 word lorems and 1 header3. Inside this header 3, give me 1 word lorem</b></p>
+    <ul>
+        <li>Lorem.</li>
+        <li>Magnam.</li>
+        <li>Animi!</li>
+        <p>
+            Lorem, ipsum dolor.
+        <h3>Lorem.</h3>
+        </p>
+        <p>
+            Aliquam, deleniti quisquam.
+        <h3>Eaque.</h3>
+        </p>
+    </ul>
+
+    <br>
+
+    <p>notes for this section only makes sense in the VSC</p>
+
+    <p>.className gives me a div class named className. <b>the dot (.) means class</b> </p>
+    <div class="className"></div>
+
+    <p>h3.className gives me a header3 with the class className</p>
+    <h3 class="className"></h3>
+
+    <p>if i leave a space in between h3 and .className this also gives me a div with the class className while giving me
+        h3 as a text at the start</p>
+
+    h3 <div class="className"></div>
+
+    <p>h3>className>lorem3 gives me 3 lorems inside a header 3 which has a class of className</p>
+    <h3 class="className">Lorem, ipsum dolor.</h3>
+
+    <p># means id. If i write #id, this gives me a div with the id name "id"</p>
+    <div id="id"></div>
+
+    <p>h3#createId>lorem2 gives me a header3 with the id "createId" with 2 lorems inside</p>
+    <h3 id="createId">Lorem, ipsum.</h3>
+
+    <p>conversely if i write #h3>lorem2 it gives me a div with the id of "h3" and inside the div a 2 word lorem. So
+        after the hashtag sign we need to write the idName just like how we need to write the className after the dot(.)
+    </p>
+    <div id="h3">Lorem, ipsum.</div>
+
+    <p>h3.className#createId>lorem1 will give me a header 3 with the class of className and with the ID of createId.
+        Inside this header3 there will be 1 word lorem </p>
+    <h3 class="className" id="createId">Lorem.</h3>
+
+    <p>h3.first-class.second-class . program will read the first dot and read the rest as the class name so the second
+        dot will be seen as a space character. Also there shouldn't be a space character in a class name it doesnt
+        recognize with a space </p>
+    <h3 class="first-class second-class"></h3>
+
+    <p>h3.kodluyoruz.html</p>
+    <h3 class="kodluyoruz html"></h3>
+
+    <p>we can try different combinations to see different results</p>
+    <p>for example, ul>li.result since we wonder about the result</p>
+    <p>it will give us a list item inside of a unordered list and the list items' class will be "result"</p>
+
+    <ul>
+        <li class="result"></li>
+    </ul>
+
+    <p>lets try <b>ul>.result</b> now even we didnt write li to give us a list item. this time the program will
+        recognize the ul and give us the li itself. so <b>ul>.result</b> will give is a list item inside of a unordered
+        list with the class of "result"</p>
+    <ul>
+        <li class="result"></li>
+    </ul>
+
+    <p><b>ul>.text-red*3</b> will give us an unordered list. Inside it will be 3 list items with the class name text-red
+    </p>
+    <ul>
+        <li class="text-red"></li>
+        <li class="text-red"></li>
+        <li class="text-red"></li>
+    </ul>
+
+    <br>
+
+    <p><b>this one is MUCHO IMPORTANTE GRINGO</b></p>
+    <p><b>$</b> the DOLLA SIGN BOYY</p>
+    <p>the dollar sign $ incrementally increases the number</p>
+    <p>if i write <b>ul>li#idNo$*3</b> this will give me an unordered list. Inside there will be 3 list items with the
+        id "idNo$" but with the dollar sign $ means the number at the end is gonna increase from 1 to 3</p>
+    <ul>
+        <li id="idNo1"></li>
+        <li id="idNo2"></li>
+        <li id="idNo3"></li>
+    </ul>
+
+    <br>
+
+    <p>if i write p{ and then keep writing when i hit TAB it will complete my text to a p tag. This is also true for all
+        the tags. So if i start writing h1{ ....... it will also close to a h1 tag when i hit tab</p>
+    <p>writing inside the p tag with emmet</p>
+    <h3>writing inside the h3 tag with emmet</h3>
+    <b>writing inside the b tag with emmet</b>
+
+    <p><b>li.className</b> will give me a line item with the class of className</p>
+    <li class="className"></li>
+
+    <p><b>.className</b> will give me a div with the class of className</p>
+    <div class="className"></div>
+
+    <p><b>ul>.className</b> will give me an unordered list. Inside there will be a list item with the class of className
+    </p>
+    <ul>
+        <li class="className"></li>
+    </ul>
+
+    <br>
+
+    <h2>WORKING WITH IMAGES ON HTML</h2>
+    <p>two types of images one in folder and one online</p>
+
+
+
+    <p>NOTE: instead of modifying multiple attributes you can open a class and reference a div to that class. your class
+        properties will be applied to the div content</p>
+
+    <img style="width: 200px; height: auto;" src="https://cdn.sanity.io/images/9kdepi1d/production/6a5ed2a57036cbd99732311d8558882d2eaa6717-1088x826.svg?w=160&h=121&fit=crop"
+        alt="kodluyoruz.org image">
+
+    <img style="width: 200px; height: auto;" src="images.jpg/609859a191abe5d64b17fed3_Patika logo.png" alt="patika.dev image">
+
+    <img style="width: 200px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
+        alt="google images img">
+
+    <br>
+
+    <p>a tag</p>
+
+    <br>
+
+    <p>a target="_blank" opens up the website on a new tab</p>
+    <a target="_blank" href="https://www.patika.dev/">patika website</a>
+
+    <br>
+
+    <p>link to another page</p>
+    <a href="LinkHTML.html">Go to the Links Page</a>
+
+    <br>
+
+    <p>link to a location within the page. In this case, the start of the page</p>
+    <a id="footer" href="#head">start of the page</a>
+
+    <br>
+
+    <p>mail to somebody</p>
+    <a href="mailto:bilgehanarici97@gmail.com">mail to Bilgehan Arici</a>
+
+    <br>
+
+    <p>phone somebody</p>
+    <a href="tel:0533999999999">phone me honey</a>
+
+    <p>put a link to an image</p>
+    
+    <a href="https://www.patika.dev/">
+        <img style="height: 200px;" src="images.jpg/609859a191abe5d64b17fed3_Patika logo.png" alt="patika website">
+    </a>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
