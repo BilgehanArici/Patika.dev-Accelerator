@@ -1,0 +1,83 @@
+/* element selector */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* id selector */
+#anim {
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+}
+
+/* class selector */
+.imp {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div p {
+    background-color: pink;
+}
+
+#aboutMe > p {
+    text-decoration: underline;
+}
+
+div.movies {
+    border: 3px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul.movies > li {
+    line-height: 2;
+}
+
+ul.movies > li:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+ul.movies > li:nth-child(even) {
+    background-color: rgb(250, 250, 250);
+}
+
+.oynak {
+    padding: 16px;
+    animation: EzgininAnimasyonu 2s infinite alternate;
+    display: flex;
+}
+
+@keyframes EzgininAnimasyonu {
+    from {
+        background-color: turquoise;
+        
+    }
+
+    to {
+        background-color: darkorange;
+    }
+}
+
+.oynak > span {
+    animation: SoldanSaga 6s linear infinite alternate, Dondur 1s linear infinite alternate;
+    text-transform: uppercase;
+}
+
+@keyframes SoldanSaga {
+    0% {
+        margin-left: 0%;
+    }
+    100% {
+        margin-left: calc(100% - 230px);
+    }
+}
+
+@keyframes Dondur {
+    0% {
+        transform: rotate(-10deg) scale(0.6);
+    }
+
+    100% {
+        transform: rotate(10deg) scale(1.1);
+    }
+}
