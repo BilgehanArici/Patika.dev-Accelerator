@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Elements</title>
+    <style>
+        p::first-letter{
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        p::first-line{
+            text-decoration: underline;
+        }
+
+        p::after{
+            content:"☺♥☻";
+            color: crimson;
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis qui est explicabo quod dolore minus amet unde suscipit magni rem eius natus ipsum doloremque esse, repudiandae, obcaecati nam! A, impedit.&#128512</p>
+
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur magnam eos consequuntur aliquid hic, quae magni iste sit id? Assumenda minima cupiditate explicabo voluptate sequi quos omnis accusamus debitis velit iusto fugit veniam laudantium aperiam, incidunt, dicta modi. Molestiae, quia?</p>
+
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, a!</p>
+  <p>Totam a nesciunt eaque facere dolorum nihil ratione adipisci corrupti.</p>
+  <p>Quasi distinctio eum nobis vel ea doloribus iure autem ad?</p>
+
+</body>
+</html>

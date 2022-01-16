@@ -1,0 +1,59 @@
+h2 {
+    border: 2px solid black;
+    font-size: 3rem;
+}
+
+.triangle {
+    border: 75px solid green;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    width: 0px;
+    height: 0px;
+}
+
+.circle {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.square {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border: 5px solid tomato;
+}
+
+
+.hexagon {
+    display: flex;
+}
+
+.hexagon>div {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+
+}
+
+.hexagon>div:nth-child(1) {
+    width: 50px;
+    border: 50px solid transparent;
+    border-right-color: black;
+    border-left-width: 0;
+}
+
+.hexagon>div:nth-child(2) {
+    background-color: black;
+}
+
+.hexagon>div:nth-child(3) {
+    width: 50px;
+    border: 50px solid transparent;
+    border-left-color: black;
+}
